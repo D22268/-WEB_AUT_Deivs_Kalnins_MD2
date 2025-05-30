@@ -8,8 +8,9 @@ describe('Appointment History Empty', () => {
   it('should show no appointment in history', () => {
     loginPage.visit();
     loginPage.clickMakeAppointment();
-    loginPage.fillUsername('John Doe');         // Use the demo username
-    loginPage.fillPassword('ThisIsNotAPassword'); // Use the demo password
+    //demo user and password
+    loginPage.fillUsername('John Doe');        
+    loginPage.fillPassword('ThisIsNotAPassword'); 
     loginPage.clickLogin();
 
     sidebarPage.openMenu();
