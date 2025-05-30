@@ -1,6 +1,7 @@
 class LoginPage {
   visit() {
-    cy.visit('/');
+    cy.visit('https://katalon-demo-cura.herokuapp.com/');
+
   }
 
   clickMakeAppointment() {
